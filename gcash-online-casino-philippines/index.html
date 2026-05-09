@@ -34,15 +34,22 @@
   </script>
 </head>
 <body>
-<header class="site-header">
-  <a href="https://spinex.news/" class="brand"><img src="../assets/brand/spinex-logo.png" alt="SPINEX"></a>
-  <nav class="primary-nav">
-    <a href="https://spinex.news/">Home</a>
-    <a href="https://spinex.news/slots/">Slots</a>
-    <a href="https://spinex.news/live-casino/">Live Casino</a>
-    <a href="https://spinex.news/promotions/">Promotions</a>
-    <a href="https://spinex.news/banking/">Banking</a>
-    <a href="https://spinex.news/faq/">FAQ</a>
+<header class="site-header" data-header>
+  <a class="brand" href="" aria-label="SPINEX News home">
+    <img src="assets/brand/spinex-logo.png" alt="SPINEX logo" width="148" height="44">
+    <span>News</span>
+  </a>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+    <span></span><span></span><span></span><span class="sr-only">Menu</span>
+  </button>
+  <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation" data-nav>
+    <a href="">Home</a>
+    <a href="slots/">Slots</a>
+    <a href="live-casino/">Live Casino</a>
+    <a href="promotions/">Promotions</a>
+    <a href="banking/">Banking</a>
+    <a href="faq/">FAQ</a>
+    <a href="https://www.spinex.fun/?referral=gg60164" class="btn btn-small" target="_blank" rel="noopener">Play Now</a>
   </nav>
 </header>
 
@@ -220,27 +227,27 @@
 </main>
 
 <footer class="site-footer">
-  <div class="footer-grid wrap">
+  <div class="footer-grid">
     <div>
-      <a href="https://spinex.news/" class="brand" style="margin-bottom:.75rem"><img src="../assets/brand/spinex-logo.png" alt="SPINEX" style="width:120px"></a>
-      <p style="margin:.5rem 0 0;font-size:.9rem">Independent guide for Filipino players. Not affiliated with SPINEX operator.</p>
+      <img src="assets/brand/spinex-square.png" alt="SPINEX logo" width="96" height="96" loading="lazy">
+      <p>SPINEX News is an independent information hub for Filipino players comparing slots, live casino, banking, and real promotion rules before visiting SPINEX.</p>
     </div>
     <div>
-      <h2>Pages</h2>
-      <a href="https://spinex.news/">Home</a>
-      <a href="https://spinex.news/slots/">Slots</a>
-      <a href="https://spinex.news/live-casino/">Live Casino</a>
-      <a href="https://spinex.news/promotions/">Promotions</a>
-      <a href="https://spinex.news/banking/">Banking</a>
+      <h2>Explore</h2>
+      <a href="slots/">Slots providers</a>
+      <a href="live-casino/">Live casino games</a>
+      <a href="promotions/">Promotion rules</a>
+      <a href="banking/">GCash banking guide</a>
+      <a href="gcash-online-casino-philippines/">GCash Casinos PH</a>
+      <a href="best-online-casino-philippines/">Best Casino 2026</a>
     </div>
     <div>
-      <h2>Legal</h2>
-      <a href="https://spinex.news/terms/">Terms</a>
-      <a href="https://spinex.news/privacy/">Privacy Policy</a>
-      <a href="https://spinex.news/responsible/">Responsible Gambling</a>
+      <h2>Player Care</h2>
+      <p>Play for entertainment only. Set a budget, take breaks, and use platform limits when play stops being fun. Access is for adults only.</p>
+      <a class="btn btn-small" href="https://www.spinex.fun/?referral=gg60164" target="_blank" rel="noopener">Visit SPINEX</a>
     </div>
   </div>
-  <p class="legal">© 2026 SPINEX News. For entertainment purposes only. 21+.</p>
+  <p class="legal">© 2026 SPINEX News. Game availability and promotion rules can change; always confirm live terms in your account.</p>
 </footer>
 
 <div class="sticky-cta">
@@ -255,5 +262,6 @@ document.querySelectorAll('.faq-question').forEach(function(btn){
   });
 });
 </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"46e182368f2049ef83c7f2dc52c612d7","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>

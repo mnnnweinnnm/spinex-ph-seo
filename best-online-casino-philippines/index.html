@@ -11,6 +11,42 @@
   <meta property="og:image" content="https://spinex.news/images/main-banner.jpg">
   <meta property="og:type" content="article">
   <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .table-scroll {
+      width: 100%;
+      max-width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.08);
+      background: rgba(255,255,255,.02);
+    }
+    .table-scroll table {
+      min-width: 760px;
+      margin: 0;
+    }
+    @media (max-width: 720px) {
+      .table-scroll {
+        margin-inline: -1rem;
+        width: calc(100% + 2rem);
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+      }
+      .table-scroll table {
+        min-width: 720px;
+      }
+      .table-hint {
+        display: block;
+        margin-top: .6rem;
+        color: var(--text-muted);
+        font-size: .85rem;
+      }
+    }
+    @media (min-width: 721px) {
+      .table-hint { display: none; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header" data-header>
@@ -102,66 +138,69 @@
           <p class="eyebrow">Head-to-Head</p>
           <h2>Top Online Casinos Philippines 2026</h2>
         </div>
-        <table>
-          <thead>
-            <tr>
-              <th>Casino</th>
-              <th>License</th>
-              <th>GCash Deposit</th>
-              <th>GCash Withdraw</th>
-              <th>Games</th>
-              <th>Cashback</th>
-              <th>Verdict</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="background:rgba(0,191,255,.08)">
-              <td><strong>⭐ SPINEX</strong></td>
-              <td>✅ PAGCOR</td>
-              <td>&lt; 2 min</td>
-              <td>&lt; 5 min</td>
-              <td>5,000+</td>
-              <td>Up to 6%</td>
-              <td><strong>Best overall</strong></td>
-            </tr>
-            <tr>
-              <td>JoyCasino</td>
-              <td>⚠️ Curaçao</td>
-              <td>5–10 min</td>
-              <td>15–30 min</td>
-              <td>4,000+</td>
-              <td>3%</td>
-              <td>Best game variety</td>
-            </tr>
-            <tr>
-              <td>Winport</td>
-              <td>✅ PAGCOR</td>
-              <td>&lt; 3 min</td>
-              <td>&lt; 10 min</td>
-              <td>2,800+</td>
-              <td>4%</td>
-              <td>Strong PAGCOR option</td>
-            </tr>
-            <tr>
-              <td>PNXBet</td>
-              <td>⚠️ Curaçao</td>
-              <td>&lt; 5 min</td>
-              <td>10–20 min</td>
-              <td>2,500+</td>
-              <td>4%</td>
-              <td>Best for sports</td>
-            </tr>
-            <tr>
-              <td>MegaPanalo</td>
-              <td>✅ PAGCOR</td>
-              <td>&lt; 3 min</td>
-              <td>10–15 min</td>
-              <td>1,800+</td>
-              <td>2%</td>
-              <td>PAGCOR budget pick</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-scroll" role="region" aria-label="Top online casinos comparison" tabindex="0">
+          <table>
+            <thead>
+              <tr>
+                <th>Casino</th>
+                <th>License</th>
+                <th>GCash Deposit</th>
+                <th>GCash Withdraw</th>
+                <th>Games</th>
+                <th>Cashback</th>
+                <th>Verdict</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:rgba(0,191,255,.08)">
+                <td><strong>⭐ SPINEX</strong></td>
+                <td>✅ PAGCOR</td>
+                <td>&lt; 2 min</td>
+                <td>&lt; 5 min</td>
+                <td>5,000+</td>
+                <td>Up to 6%</td>
+                <td><strong>Best overall</strong></td>
+              </tr>
+              <tr>
+                <td>JoyCasino</td>
+                <td>⚠️ Curaçao</td>
+                <td>5–10 min</td>
+                <td>15–30 min</td>
+                <td>4,000+</td>
+                <td>3%</td>
+                <td>Best game variety</td>
+              </tr>
+              <tr>
+                <td>Winport</td>
+                <td>✅ PAGCOR</td>
+                <td>&lt; 3 min</td>
+                <td>&lt; 10 min</td>
+                <td>2,800+</td>
+                <td>4%</td>
+                <td>Strong PAGCOR option</td>
+              </tr>
+              <tr>
+                <td>PNXBet</td>
+                <td>⚠️ Curaçao</td>
+                <td>&lt; 5 min</td>
+                <td>10–20 min</td>
+                <td>2,500+</td>
+                <td>4%</td>
+                <td>Best for sports</td>
+              </tr>
+              <tr>
+                <td>MegaPanalo</td>
+                <td>✅ PAGCOR</td>
+                <td>&lt; 3 min</td>
+                <td>10–15 min</td>
+                <td>1,800+</td>
+                <td>2%</td>
+                <td>PAGCOR budget pick</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <span class="table-hint">Swipe left/right to view the full comparison.</span>
         <p style="margin-top:.75rem;font-size:.88rem;color:var(--text-muted)">⚠️ Curaçao = international license, accepted in PH but not PAGCOR-regulated. Prefer PAGCOR for full local protection.</p>
       </div>
     </section>

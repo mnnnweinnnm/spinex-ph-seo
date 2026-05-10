@@ -1,0 +1,11 @@
+{# Subpage layout — with breadcrumb #}
+{% include "head.html" %}
+{% if breadcrumbs %}
+{% include "breadcrumb.html" %}
+{% endif %}
+{{ content | safe }}
+{% include "sticky-cta.html" %}
+{% include "footer.html" %}
+<script src="/js/spinex.js" defer></script>
+</body>
+</html>

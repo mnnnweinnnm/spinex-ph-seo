@@ -1,0 +1,25 @@
+{
+  "name": "spinex-ph-seo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "clean": "rm -rf _site",
+    "start": "eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnnnweinnnm/spinex-ph-seo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mnnnweinnnm/spinex-ph-seo/issues"
+  },
+  "homepage": "https://github.com/mnnnweinnnm/spinex-ph-seo#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}

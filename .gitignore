@@ -1,5 +1,4 @@
 node_modules/
+_site/
+vps-live/
 .DS_Store
-research/lobby-*.html
-*.log
-.env

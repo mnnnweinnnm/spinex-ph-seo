@@ -1,0 +1,4 @@
+SPINEX News static SEO site
+Built: 2026-05-06
+Stack: Static HTML, vanilla CSS, vanilla JS, Node built-ins
+Affiliate referral added only on outbound clicks: gg60164

@@ -16,3 +16,4 @@
 a.provider-card{display:flex;align-items:center;justify-content:center;text-decoration:none;color:inherit}
 a.provider-card:hover{box-shadow:0 0 0 1px var(--neon-blue),0 16px 40px rgba(0,191,255,.25)}
 a.provider-card img{display:block;max-width:100%;height:auto}
+.footer-legal{display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;margin:1.5rem 0 0;padding-top:1rem;border-top:1px solid var(--border);font-size:.88rem}.footer-legal a{color:var(--text-muted)}.footer-legal a:hover{color:var(--gold)}
